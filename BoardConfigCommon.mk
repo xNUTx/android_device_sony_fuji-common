@@ -20,6 +20,9 @@ TARGET_SPECIFIC_HEADER_PATH := device/sony/fuji-common/include
 # inherit from Sony common
 -include device/sony/common/BoardConfigCommon.mk
 
+# Time
+TARGET_RECOVERY_QCOM_RTC_FIX := true
+
 # Kernel properties
 #TARGET_KERNEL_SOURCE := kernel/sony/msm8x60
 
